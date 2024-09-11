@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/icon.jpg">
+  <!--css links-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/lightboxanim/simplelightbox-master/dist/simple-lightbox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>js</title>
+</head>
+<body>
+<div class="container p-0">
+  
+      <nav class="navbar navbar-expand-lg m_nav mt-0 mb-0">
+        <div class="container">
+        
+
+                  <div class="collapse navbar-collapse menu" id="nav1">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nv">
+              <li class="nav-item">
+
+                <a class="nav-link active" aria-current="page" href="index.html">page1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page2.html">page2</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="page3.html">Page3</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="page4.html">Page4</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="page5.html">Page5</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="page6.html">Page6</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="page7.html">Page7</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="page8.html">Page8</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="page9.html">Page9</a>
+              </li>
+              
+         </ul>
+       </div>
+     </div>
+   </nav>
+  
+ </div>
+    
+    <!--animation2-->
+  <div class="container py-5">
+    <div class="item" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100"> box1</div>
+  </div>
+
+
+  <!--lightbox-->
+  <div class="container py-5">
+ <div class="gallery">
+    <a href="images/i1-thumb.jpg"><img src="images/i1-thumb.jpg"alt="" title="Beautiful Image"/></a>
+
+    <a href="images/2.jpg" class="big" rel="rel1">
+
+    <img src="images/2.jpg" alt="" >
+
+  </a>
+</div>
+</div>
+
+
+
+
+<!-------mix it up-------->
+
+
+<div class="wrap">
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h4>Filter Programmes</h4>
+      </div>
+    </div><!-- end of row -->
+
+    <div class="row">
+      <div class="twelve columns">
+        <div class="programs">
+          <button class="filter-btn" data-filter="all">All</button>
+          <button class="filter-btn" data-filter=".undergraduate">Undergraduate</button>
+          <button class="filter-btn" data-filter=".graduate">Graduate</button>
+          <button class="filter-btn" data-filter=".phd">PhD</button>
+        </div>
+      </div>
+    </div><!-- end of row -->
+
+    <div class="row">
+      <div class="columns twelve">
+        <h4>Sort Programmes</h4>
+      </div>
+    </div><!-- end of row -->
+
+    <div class="row">
+      <div class="columns twelve">
+        <div class="programs">
+          <button class="sort-btn" data-sort="default:asc">Default</button>
+          <button class="sort-btn" data-sort="random">Random</button>
+          <button class="sort-btn" data-sort="order:asc">Ascending</button>
+          <button class="sort-btn" data-sort="year:desc order:desc">Descending<span class="multi">(Multi)</span></button>
+        </div>
+      </div>
+    </div><!-- end of row -->
+
+    <div class="row">
+      <div class="twelve columns">
+        <h4>Programmes List</h4>
+      </div>
+    </div><!-- end of row -->
+
+    <div class="row">
+      <div class="twelve columns">
+        <ul class="courses" id="mix-wrapper">
+          <li class="mix-target undergraduate" data-order="5" data-year="4"><a href="#">Economics<span>(U)</span></a></li>
+          <li class="mix-target graduate" data-order="14" data-year="2"><a href="#">Pharmacology<span>(G)</span></a></li>
+          <li class="mix-target graduate" data-order="7" data-year="1"><a href="#">Informatics<span>(G)</span></a></li>
+          <li class="mix-target phd" data-order="4" data-year="3"><a href="#">Criminology<span>(P)</span></a></li>
+          <li class="mix-target undergraduate" data-order="16" data-year="3"><a href="#">Sociology<span>(U)</span></a></li>
+          <li class="mix-target undergraduate" data-order="6" data-year="4"><a href="#">Greek<span>(U)</span></a></li>
+          <li class="mix-target phd" data-order="1" data-year="3"><a href="#">Astrophysics<span>(P)</span></a></li>
+          <li class="mix-target undergraduate" data-order="12" data-year="4"><a href="#">Nursing<span>(U)</span></a></li>
+          <li class="mix-target undergraduate" data-order="10" data-year="5"><a href="#">Microbiology<span>(U)</span></a></li>
+          <li class="mix-target undergraduate" data-order="9" data-year="4"><a href="#">Mathematics<span>(U)</span></a></li>
+          <li class="mix-target graduate" data-order="11" data-year="3"><a href="#">Nanoscience<span>(G)</span></a></li>
+          <li class="mix-target phd" data-order="2" data-year="2"><a href="#">Biochemistry<span>(P)</span></a></li>
+          <li class="mix-target phd" data-order="13" data-year="3"><a href="#">Pathology<span>(P)</span></a></li>
+          <li class="mix-target graduate" data-order="8" data-year="1"><a href="#">Management<span>(G)</span></a></li>
+          <li class="mix-target graduate" data-order="3" data-year="2"><a href="#">Biostatistics<span>(G)</span></a></li>
+          <li class="mix-target phd" data-order="15" data-year="4"><a href="#">Public Health<span>(P)</span></a></li>
+        </ul>
+      </div>
+    </div><!-- end of row -->   
+  </div><!-- end of container -->
+</div><!-- end of wrap -->
+
+
+
+
+<!--js links-->
+
+<!--<script src="js/jquery-3.7.1.min.js"></script>-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="vendor/lightboxanim/simplelightbox-master/dist/simple-lightbox.jquery.min.js"></script>
+<!--<script src="vendor/mixitup/mixitup-3/dist/mixitup.min.js"></script>-->
+<script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script>AOS.init();</script>
+
+ 
+</body>
+</html>
